@@ -9,8 +9,9 @@ export default class Termekek{
         this.megjelenit()
     }
     megjelenit(){
+        this.szuloElem.innerHTML="";
         this.#lista.forEach(element => {
-            this.szuloElem.innerHTML="";
+            
             new Termek(element,this.szuloElem)
         });
     }

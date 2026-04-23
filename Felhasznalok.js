@@ -6,8 +6,9 @@ export default class Felhasznalok {
             this.megjelenit()
         }
         megjelenit(){
+                            this.szuloElem.innerHTML="";
+
             this.#lista.forEach(element => {
-                this.szuloElem.innerHTML="";
                 new Termek(element,this.szuloElem)
             });
         }

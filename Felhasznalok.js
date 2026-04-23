@@ -9,7 +9,7 @@ export default class Felhasznalok {
                             this.szuloElem.innerHTML="";
 
             this.#lista.forEach(element => {
-                new Termek(element,this.szuloElem)
+                new felhasznalo(element,this.szuloElem)
             });
         }
 }

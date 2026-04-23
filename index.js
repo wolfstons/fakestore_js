@@ -22,5 +22,5 @@ felhElem.addEventListener("click", () => {
 });
 function felhMegjelenitese(felhAdatok) {
   usersList = felhAdatok;
-  new Termekek(usersList, taroloElem);
+  new felhasznalok(felhAdatok, taroloElem);
 }

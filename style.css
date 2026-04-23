@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+
+footer{
+    text-align: center;
+}
+.tartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.card{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.ar{
+    border: 1px solid white;
+    color: blue;
+}
+.card img{
+    width: 200px;
+
+}

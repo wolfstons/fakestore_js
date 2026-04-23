@@ -1,4 +1,4 @@
-export default class Felhsznalo {
+export default class Felhasznalo {
 constructor(obj, szuloElem) {
         this.obj = obj;
         this.szuloElem = szuloElem;
